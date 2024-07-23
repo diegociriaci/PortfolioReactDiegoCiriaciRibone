@@ -1,0 +1,172 @@
+.hero{
+    background-color: #efdfd2;
+}
+
+.nombre-apellido{
+    color: #fc540d;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.desarrollador-nombre{
+    color: #030301;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.redes{
+    text-align: center;
+    word-spacing: 10px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.nav-link-hero{
+    color: #030301;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    margin: 0 10px;
+}
+
+.imagen-flecha{
+    width: 18px;
+    transform: translate(-20px, -2px);
+}
+
+.contenedor-presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; 
+    height: auto;
+    padding: 50px 10px;
+    margin-left: -120px;
+    margin-right: -120px;
+}
+
+.mi-presentacion{
+    flex: 1;
+    margin-top: 80px;
+    padding-left: 0; /* Mueve el contenido hacia la izquierda */
+}
+
+.mi-presentacion p{
+    max-width: 350px;
+    color: #87878c;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.boton-contratame{
+    background-color: #fc540d;
+    color: #fffdf4;
+    border: none;
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+
+.boton-contratame:hover{
+    background-color: #fffdf4;
+    color: #fc540d;
+    border: 2px solid #fc540d;
+}
+
+.imagen-flecha-boton{
+    width: 15px;
+    transform: translate(5px, -1px);
+}
+
+.foto-perfil-flexbox{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.foto-perfil{
+    outline: 2px solid #fc540d;
+    outline-offset: 7px;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+}
+
+.contenedor-info{
+    flex: 1;
+    margin-top: 60px;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.info-numero{
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.info-texto{
+    margin-left: 30px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.contenedor-puntuacion{
+    width: 300px;
+    height: 180px;
+    position: relative;
+    bottom: 180px;
+    padding: 10px 10px;
+    margin-left: -120px;
+    margin-right: -120px;
+}
+
+.imagen-clutch img{
+    width: 90px;
+    height: auto;
+    margin-bottom: -25px;
+}
+
+.imagen-estrella img{
+    width: 22px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.opinion-texto{
+    margin-top: -1px;
+}
+
+.opinion-texto p{
+    color: #87878c;
+    font-family: Helvetica;
+    font-size: 15px;
+}

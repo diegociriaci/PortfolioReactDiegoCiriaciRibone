@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+//ANTES DEL RETURN VA EL CODIGO JS
+  
   return (
+    // ACA VA TODO EL HTML, DENTRO DEL RETURN
     <h1>hola mundo</h1>
   )
 }
