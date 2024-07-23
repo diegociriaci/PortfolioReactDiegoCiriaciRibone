@@ -1,0 +1,83 @@
+.reviews{
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px 90px;
+}
+
+.reviews-header{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.reviews-header h1{
+    margin-bottom: 40px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #fc540d;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active{
+    background-color: #fc540d;
+}
+
+.opinion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.contenedor-opiniones{
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.imagen-perfil{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.informacion-persona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombre-persona-opinion{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ocupacion-persona-opinion{
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.texto-opinion{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    color: #555;
+    max-width: 600px;
+    margin-bottom: 50px;
+}

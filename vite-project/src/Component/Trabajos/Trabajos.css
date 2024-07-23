@@ -1,0 +1,65 @@
+.works{
+    background-color: #f4eae1;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px 0;
+}
+
+.trabajos-header{
+    align-self: flex-start;
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: -120px;
+    margin-right: -120px; 
+    height: auto;
+    padding-top: 50px;
+    
+}
+
+.trabajos-header h1{
+    margin-bottom: 40px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.imagenes-trabajos-caja{
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagenes-trabajos-caja img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.boton-trabajos{
+    background-color: #fc540d;
+    color: #fffdf4;
+    border: none;
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+
+.boton-trabajos:hover{
+    background-color: #fffdf4;
+    color: #fc540d;
+    border: 2px solid #fc540d;
+}
+
+.imagen-flecha-boton-trabajos{
+    width: 15px;
+    transform: translate(-5px, 1px);
+}
