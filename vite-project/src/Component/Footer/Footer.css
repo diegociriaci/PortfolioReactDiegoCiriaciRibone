@@ -1,0 +1,106 @@
+footer{
+    background-color: #fc5811;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.footer-header{
+    margin-bottom: 20px;
+    margin-left: -120px;
+    margin-top: 30px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titulo-footer{
+    padding-bottom: 30px;
+}
+
+.icono-mensaje-ubicacion{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.info-contacto-titulo{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.info-contacto-subtitulo{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.saludo img{
+    width: 30px;
+}
+
+.saludo p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boton-saludo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.boton-saludo img{
+    width: 150px;
+    height: 150px;
+}
+
+.boton-saludo:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.boton-saludo:hover img{
+    transform: scale(1.2);
+}
+
+.pie-pagina{
+    margin-left: -132px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pie-pagina p, .email{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.pie-pagina img{
+    width: 14px;
+    height: auto;
+}
+
+.hr-tamanio{
+    border: 0;
+    height: 2px;
+    background-color: #fff;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.hr-final{
+    border: 0;
+    height: 2px;
+    background-color: #fff;
+    margin-left: -130px;
+}
