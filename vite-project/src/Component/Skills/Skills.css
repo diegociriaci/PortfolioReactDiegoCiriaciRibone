@@ -10,29 +10,20 @@
 .skills-header{
     align-self: flex-start;
     margin-bottom: 20px;
-    width: 40%;
-    margin-left: -120px;
-    margin-right: -120px; 
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 77px;
     height: auto;
-    padding: 50px 10px;
 }
 
 .skills-header h1{
-    margin-bottom: 20px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .skills-descripcion{
-    /* align-self: flex-start;
-    margin-left: 20px;
-    width: 100%;
-    margin-bottom: 20px;
-    color: #87878c;
-    font-family: Helvetica;
-    font-size: 18px;
-    position: relative; */
     color: #87878c;
     font-family: Helvetica;
     font-size: 18px;
@@ -96,12 +87,9 @@
 .experiencia-lista{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-left: auto;
-    width: 53%;
-    margin-bottom: 20px;
-    height: auto;
-    padding: 50px 10px;
+    width: 52%;
+    margin-top: -445px;
 }
 
 .experiencia-lista h2{
@@ -110,6 +98,7 @@
 
 .experiencia-item{
     display: flex;
+    justify-content: space-between;
     width: 100%;
     margin-bottom: 30px;
     font-size: 1.2em;
