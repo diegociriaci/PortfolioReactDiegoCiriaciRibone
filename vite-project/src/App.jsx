@@ -1,4 +1,5 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
 //ANTES DEL RETURN VA EL CODIGO JS

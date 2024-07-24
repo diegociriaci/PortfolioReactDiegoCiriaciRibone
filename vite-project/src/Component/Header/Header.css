@@ -1,4 +1,4 @@
-header.header {
+.header{
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 12px;
@@ -7,6 +7,14 @@ header.header {
     align-items: center;
     justify-content: space-between;
     padding: 0 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.nav-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-link{
