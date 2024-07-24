@@ -7,30 +7,30 @@
 .trabajos-header{
     align-self: flex-start;
     margin-bottom: 20px;
-    width: 40%;
-    margin-left: -120px;
-    margin-right: -120px; 
+    width: 30%;
     height: auto;
-    padding-top: 50px;
-    
+    margin-top: 30px;
+    margin-left: 144px;
 }
 
 .trabajos-header h1{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 2em;
 }
 
-.imagenes-trabajos-caja{
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    box-sizing: border-box;
+.caja-imagen{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.imagenes-trabajos-caja{
+    padding: 10px;
 }
 
 .imagenes-trabajos-caja img{

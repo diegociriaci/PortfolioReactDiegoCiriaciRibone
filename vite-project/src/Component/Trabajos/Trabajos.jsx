@@ -7,7 +7,7 @@ const Trabajos = () => {
                 <div className="trabajos-header mb-4">
                     <h1>Últimos trabajos</h1>
                 </div>
-                <div className="row g-4">
+                <div className="caja-imagen row g-4">
                     <div className="col-md-4">
                         <div className="imagenes-trabajos-caja">
                             <img src="img/img-trabajo-1.jpg" alt="" className="img-fluid" />
