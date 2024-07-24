@@ -1,8 +1,9 @@
 import React from 'react';
-import './Reviews.css'
+import './Reviews.css';
+
 const Reviews = () => {
-    return(
-	    <section className="reviews">
+    return (
+        <section className="reviews">
             <div className="reviews-header">
                 <h1>Opiniones de clientes</h1>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -60,7 +61,7 @@ const Reviews = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Reviews
+export default Reviews;
