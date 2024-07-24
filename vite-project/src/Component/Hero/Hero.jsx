@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.css'
 const Hero = () => {
     return(
-        <section className="hero py-5">
+    <section className="hero py-5">
         <div className="container">
             <div className="row">
                 <div className="col-12 text-center contenedor-datos">

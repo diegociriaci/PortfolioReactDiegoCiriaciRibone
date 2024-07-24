@@ -2,7 +2,7 @@ import React from 'react';
 import './Servicios.css'
 const Servicios = () => {
     return(
-        <section className="servicios py-5">
+    <section className="servicios py-5">
         <div className="container">
             <div className="row">
                 <div className="col-md-4">
@@ -18,7 +18,7 @@ const Servicios = () => {
                         <hr />
                         <div className="servicio-item d-flex align-items-center">
                             <p className="num mb-0">01/</p>
-                            <div className="d-flex flex-column flex-grow-1 ms-3">
+                            <div className="">
                                 <p className="nombre-servicio mb-0">Diseño gráfico</p>
                             </div>
                             <div className="d-flex flex-column align-items-end ms-3">

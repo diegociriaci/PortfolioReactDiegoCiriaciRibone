@@ -1,5 +1,11 @@
 .hero{
     background-color: #efdfd2;
+    /* border: 1px solid black; */
+    
+}
+
+.contenedor-datos{
+    padding-top: 30px;
 }
 
 .nombre-apellido{
@@ -7,7 +13,6 @@
     text-align: center;
     font-family: Arial;
     font-size: 40px;
-    margin-top: 30px;
     font-weight: bold;
 }
 
@@ -17,6 +22,7 @@
     font-family: Arial;
     font-size: 40px;
     font-weight: bold;
+    margin-top: -20px;
 }
 
 .redes{
@@ -27,6 +33,7 @@
     font-size: 12px;
     line-height: 50px;
     text-decoration: none;
+    margin-top: -30px;
 }
 
 .nav-link-hero{
@@ -39,7 +46,7 @@
 
 .imagen-flecha{
     width: 18px;
-    transform: translate(-20px, -2px);
+    transform: translate(-10px, 4px);
 }
 
 .contenedor-presentacion{
@@ -48,15 +55,13 @@
     justify-content: space-between;
     align-items: flex-start; 
     height: auto;
-    padding: 50px 10px;
-    margin-left: -120px;
-    margin-right: -120px;
+    padding: 50px 100px;
 }
 
 .mi-presentacion{
     flex: 1;
     margin-top: 80px;
-    padding-left: 0; /* Mueve el contenido hacia la izquierda */
+    margin-left: 50px;
 }
 
 .mi-presentacion p{
@@ -89,7 +94,7 @@
 
 .imagen-flecha-boton{
     width: 15px;
-    transform: translate(5px, -1px);
+    transform: translate(5px, 3px);
 }
 
 .foto-perfil-flexbox{
@@ -140,29 +145,25 @@
 }
 
 .contenedor-puntuacion{
-    width: 300px;
-    height: 180px;
+    width: 15%;
+    height: auto;
     position: relative;
-    bottom: 180px;
-    padding: 10px 10px;
-    margin-left: -120px;
-    margin-right: -120px;
+    bottom: 300px;
+    margin-left: 150px;
+}
+
+.imagen-clutch{
+    width: 100%;    
+    height: 65px;
 }
 
 .imagen-clutch img{
-    width: 90px;
-    height: auto;
-    margin-bottom: -25px;
+    width: 30%;    
 }
 
 .imagen-estrella img{
     width: 22px;
     height: auto;
-    margin-bottom: 5px;
-}
-
-.opinion-texto{
-    margin-top: -1px;
 }
 
 .opinion-texto p{
