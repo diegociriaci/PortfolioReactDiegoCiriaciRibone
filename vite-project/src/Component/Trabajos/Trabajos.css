@@ -14,10 +14,10 @@
 }
 
 .trabajos-header h1{
-    margin-bottom: 20px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .caja-imagen{
