@@ -2,71 +2,55 @@ footer{
     background-color: #fc5811;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 1.25rem;
     color: white;
 }
 
-.contenedor-footer-arriba{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 .footer-header{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    margin-left: -7.5rem;
+    margin-top: 1.875rem;
     height: auto;
-    width: 25%;
-    margin-top: 50px;
-    margin-left: 144px;  
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 .titulo-footer{
-    padding-bottom: 30px;
-    width: 100%;
+    padding-bottom: 1.875rem;
 }
 
 .icono-mensaje-ubicacion{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 50%;
 }
 
 .info-contacto-titulo{
     font-family: "Noto Sans", sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-bottom: 0;
 }
 
 .info-contacto-subtitulo{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1.0625rem;
     margin-top: 0;
 }
 
-.saludo{
-    width: 20%;
-    margin-right: 350px;
-    margin-top: 100px;
-}
-
 .saludo img{
-    width: 30px;
+    width: 1.875rem;
 }
 
 .saludo p{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    width: 35%;
-    margin-left: 60px;
+    font-size: 1.25rem;
 }
 
 .boton-saludo{
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -74,13 +58,13 @@ footer{
 }
 
 .boton-saludo img{
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
 }
 
 .boton-saludo:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.2);
 }
 
 .boton-saludo:hover img{
@@ -88,40 +72,34 @@ footer{
 }
 
 .pie-pagina{
-    width: 81.5%;
+    margin-left: -8.25rem;
     height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-left: 144px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 .pie-pagina p, .email{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .pie-pagina img{
-    width: 18px;
-    margin: 10px;
+    width: 0.875rem;
     height: auto;
 }
 
 .hr-tamanio{
     border: 0;
-    height: 2px;
+    height: 0.125rem;
     background-color: #fff;
-    width: 100%;
-    margin-bottom: 15px;
+    width: 50%;
+    margin-bottom: 0.9375rem;
 }
 
 .hr-final{
     border: 0;
-    height: 2px;
+    height: 0.125rem;
     background-color: #fff;
-    margin-left: 144px;
-    margin-right: 200px;
+    margin-left: -8.125rem;
 }
