@@ -3,7 +3,7 @@ import './Reviews.css';
 
 const Reviews = () => {
     return (
-        <section className="reviews">
+        <section id="reviews" className="reviews">
             <div className="reviews-header">
                 <h1>Opiniones de clientes</h1>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">

@@ -2,7 +2,7 @@ import React from 'react';
 import './Servicios.css'
 const Servicios = () => {
     return(
-    <section className="servicios py-5">
+    <section id="servicios" className="servicios py-5">
         <div className="container">
             <div className="row">
                 <div className="col-md-4">

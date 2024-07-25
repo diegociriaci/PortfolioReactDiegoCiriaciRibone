@@ -2,7 +2,7 @@ import React from 'react';
 import './Trabajos.css'
 const Trabajos = () => {
     return(
-	    <section className="works py-5">
+	    <section id="trabajos" className="works py-5">
             <div className="container">
                 <div className="trabajos-header mb-4">
                     <h1>Últimos trabajos</h1>

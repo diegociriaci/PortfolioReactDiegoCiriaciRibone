@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css'
 const Skills = () => {
     return(
-    <section className="skills py-5">
+    <section id="skills" className="skills py-5">
         <div className="container">
             <div className="row">
                 <div className="col-md-4 skills-header">

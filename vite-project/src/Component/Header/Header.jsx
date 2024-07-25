@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-scroll';
 import './Header.css';
 
 const Header = () => {
@@ -30,12 +31,12 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav d-flex justify-content-center flex-grow-1">
                         <a className="nav-link" href="#">HOME</a>
-                        <a className="nav-link" href="#">ACERCA DE MI</a>
-                        <a className="nav-link" href="#">SERVICIOS</a>
-                        <a className="nav-link" href="#">HABILIDADES Y EXPERIENCIA</a>
-                        <a className="nav-link" href="#">ULTIMOS TRABAJOS</a>
-                        <a className="nav-link" href="#">OPINIONES DE CLIENTES</a>
-                        <a className="nav-link" href="#">NOVEDADES</a>
+                        <Link className="nav-link" to="acerca-de-mi" smooth={true} duration={50}>ACERCA DE MI</Link>
+                        <Link className="nav-link" to="servicios" smooth={true} duration={50}>SERVICIOS</Link>
+                        <Link className="nav-link" to="skills" smooth={true} duration={50}>HABILIDADES Y EXPERIENCIA</Link>
+                        <Link className="nav-link" to="trabajos" smooth={true} duration={50}>ULTIMOS TRABAJOS</Link>
+                        <Link className="nav-link" to="reviews" smooth={true} duration={50}>OPINIONES DE CLIENTES</Link>
+                        <Link className="nav-link" to="novedades" smooth={true} duration={50}>NOVEDADES</Link>
                         <a className="nav-link hablemos" href="#">Hablemos!</a>
                     </div>
                 </div>
