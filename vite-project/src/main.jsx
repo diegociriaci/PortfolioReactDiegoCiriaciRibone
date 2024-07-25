@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './Component/Header/Header.jsx'
 import Hero from './Component/Hero/Hero.jsx'
 import Servicios from './Component/Servicios/Servicios.jsx'

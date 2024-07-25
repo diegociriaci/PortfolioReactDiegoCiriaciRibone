@@ -16,11 +16,11 @@
     font-size: 2em;
 }
 
-/* .carousel{
+.carousel{
     margin-top: 20px;
-} */
+}
 
-/* .carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target]{
     background-color: #fc540d;
     width: 10px;
     height: 10px;
@@ -29,7 +29,7 @@
 
 /* .carousel-indicators .active{
     background-color: #fc540d;
-} */
+}
 
 .opinion{
     display: flex;
