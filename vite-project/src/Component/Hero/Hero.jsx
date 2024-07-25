@@ -9,11 +9,11 @@ const Hero = () => {
                     <h2 className="nombre-apellido">Diego Ciriaci Ribone</h2>
                     <h2 className="desarrollador-nombre">Desarrollador & Diseñador</h2>
                     <div className="redes">
-                        <a href="#" className="nav-link-hero">INSTAGRAM</a>
+                        <a href="https://www.instagram.com/diegoocrr/" className="nav-link-hero">INSTAGRAM</a>
                         <img className="imagen-flecha" src="img/img-flecha-diagonal-naranja.png" alt="Flecha" />
-                        <a href="#" className="nav-link-hero">BEHANCE</a>
+                        <a href="https://www.behance.net/" className="nav-link-hero">BEHANCE</a>
                         <img className="imagen-flecha" src="img/img-flecha-diagonal-naranja.png" alt="Flecha" />
-                        <a href="#" className="nav-link-hero">DRIBBLE</a>
+                        <a href="https://dribbble.com/" className="nav-link-hero">DRIBBLE</a>
                         <img className="imagen-flecha" src="img/img-flecha-diagonal-naranja.png" alt="Flecha" />
                     </div>
                 </div>
