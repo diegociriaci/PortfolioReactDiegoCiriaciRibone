@@ -1,36 +1,35 @@
 .works{
     background-color: #f4eae1;
     font-family: 'Courier New', Courier, monospace;
-    padding: 50px 0;
+    padding: 3.125rem 0;
 }
 
 .trabajos-header{
     align-self: flex-start;
-    margin-bottom: 20px;
-    width: 30%;
+    margin-bottom: 1.25rem;
+    width: 40%;
+    margin-left: -7.5rem;
+    margin-right: -7.5rem;
     height: auto;
-    margin-top: 30px;
-    margin-left: 144px;
+    padding-top: 3.125rem;
 }
 
 .trabajos-header h1{
+    margin-bottom: 2.5rem;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 2em;
-    margin-bottom: 20px;
 }
 
-.caja-imagen{
+.imagenes-trabajos-caja{
+    background-size: cover;
+    background-position: center;
+    padding: 0.625rem;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 85%;
-    margin: 0 auto;
-}
-
-.imagenes-trabajos-caja{
-    padding: 10px;
 }
 
 .imagenes-trabajos-caja img{
@@ -44,9 +43,9 @@
     color: #fffdf4;
     border: none;
     display: block;
-    margin: 20px auto 0;
-    padding: 10px 20px;
-    font-size: 15px;
+    margin: 1.25rem auto 0;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.9375rem;
     cursor: pointer;
     font-family: 'Helvetica';
     font-weight: bold;
@@ -56,10 +55,10 @@
 .boton-trabajos:hover{
     background-color: #fffdf4;
     color: #fc540d;
-    border: 2px solid #fc540d;
+    border: 0.125rem solid #fc540d;
 }
 
 .imagen-flecha-boton-trabajos{
-    width: 15px;
-    transform: translate(-5px, 1px);
+    width: 0.9375rem;
+    transform: translate(-0.3125rem, 0.0625rem);
 }
