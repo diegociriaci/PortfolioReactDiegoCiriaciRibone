@@ -14,7 +14,6 @@ footer{
 
 .footer-header{
     margin-bottom: 20px;
-    margin-top: 30px;
     height: auto;
     width: 25%;
     margin-top: 50px;
@@ -89,10 +88,14 @@ footer{
 }
 
 .pie-pagina{
-    margin-left: -132px;
+    width: 81.5%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 144px;
 }
 
 .pie-pagina p, .email{
@@ -102,7 +105,8 @@ footer{
 }
 
 .pie-pagina img{
-    width: 14px;
+    width: 18px;
+    margin: 10px;
     height: auto;
 }
 
@@ -118,5 +122,6 @@ footer{
     border: 0;
     height: 2px;
     background-color: #fff;
-    margin-left: -130px;
+    margin-left: 144px;
+    margin-right: 200px;
 }
