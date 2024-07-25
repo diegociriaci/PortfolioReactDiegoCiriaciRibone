@@ -1,46 +1,46 @@
 .novedades{
     background-color: #f4eae1;
     font-family: 'Courier New', Courier, monospace;
-    padding: 50px 0;
 }
 
 .novedades-header{
     align-self: flex-start;
-    margin-bottom: 20px;
-    width: 30%;
+    margin-bottom: 1.25rem;
+    width: 40%;
+    margin-left: -7.5rem;
+    margin-right: -7.5rem;
+    margin-top: 1.875rem;
     height: auto;
-    margin-top: 50px;
-    margin-left: 144px;   
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 .novedades-header h1{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 2rem;
 }
 
 .card-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    width: 80%;
-    margin-left: 165px;
+    width: 100%;
 }
 
 .card-custom{
     background-color: #f4eae1;
-    border-color: #f4eae1;;
-    width: 30%;
-}    
+    border-color: #f4eae1;
+    width:32%;
+}
 
 .imagen-novedad{
-    width: 100%;
-    height: 80%;
+    height: 18.75rem;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .imagen-novedad img{
@@ -49,10 +49,17 @@
     object-fit: cover;
 }
 
+.card-custom {
+    background-color: #f4eae1;
+    border-color: #f4eae1;
+}
+
 .card-body p{
     font-family: 'Helvetica';
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: bold;
-    padding: 10px;
+    padding: 0.625rem;
     box-sizing: border-box;
 }
+
+
