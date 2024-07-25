@@ -4,64 +4,62 @@
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    padding: 50px 70px;
+    padding: 3.125rem 4.375rem;
 }
 
 .servicios-header{
     align-self: flex-start;
-    margin-bottom: 20px;
-    width: 30%;
-    margin-top: 30px;
-    margin-left: 77px;
-    height: auto;  
+    margin-bottom: 1.25rem;
+    width: 100%;
+    margin-top: 1.875rem;
+    margin-left: -7.5rem;
+    height: auto;    
 }
 
 .servicios-header h1{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .servicios-descripcion{
     color: #87878c;
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .servicios-lista{
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    width: 52%;
-    margin-top: -240px;
+    width: 90%;
 }
 
 .servicio-item{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-size: 1.2em;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     width: 100%;
 }
 
 .num{
     color: #030301;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: bold;
-    margin-right: 10px;
+    margin-right: 0.625rem;
     align-self: center;
-
 }
 
 .nombre-servicio{
     color: black;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 25px;
-    margin-left: 10px;
+    font-size: 1.5625rem;
+    margin-left: 0.625rem;
     flex: 1;
     align-self: center;
     text-align: left;
@@ -69,7 +67,7 @@
 
 .boton-info{
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 0.625rem;
     align-self: center;
 }
 
@@ -85,24 +83,26 @@
 .boton-servicio:hover{
     background-color: #fffdf4;
     color: #fc540d;
-    border: 2px solid #fc540d;
+    border: 0.125rem solid #fc540d;
 }
 
 .texto-explorar{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .servicio-item img{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .servicios-lista hr{
     border: 0;
-    height: 2px;
+    height: 0.125rem;
     background-color: #000;
-    margin: 20px 0;
+    margin: 1.25rem 0;
     width: 100%;
 }
+
+

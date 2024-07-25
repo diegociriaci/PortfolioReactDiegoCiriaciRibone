@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="hero py-5">
         <div className="container">
             <div className="row">
-                <div className="col-12 text-center contenedor-datos">
+                <div className="col-12 text-center">
                     <h2 className="nombre-apellido">Diego Ciriaci Ribone</h2>
                     <h2 className="desarrollador-nombre">Desarrollador & Diseñador</h2>
                     <div className="redes">
