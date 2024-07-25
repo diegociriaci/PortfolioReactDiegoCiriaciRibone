@@ -6,24 +6,32 @@ footer{
     color: white;
 }
 
+.contenedor-footer-arriba{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 .footer-header{
     margin-bottom: 20px;
-    margin-left: -120px;
     margin-top: 30px;
     height: auto;
+    width: 25%;
+    margin-top: 50px;
+    margin-left: 144px;  
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .titulo-footer{
     padding-bottom: 30px;
+    width: 100%;
 }
 
 .icono-mensaje-ubicacion{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-
 }
 
 .info-contacto-titulo{
@@ -39,6 +47,12 @@ footer{
     margin-top: 0;
 }
 
+.saludo{
+    width: 20%;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+
 .saludo img{
     width: 30px;
 }
@@ -47,6 +61,8 @@ footer{
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 20px;
+    width: 35%;
+    margin-left: 60px;
 }
 
 .boton-saludo{
@@ -94,7 +110,7 @@ footer{
     border: 0;
     height: 2px;
     background-color: #fff;
-    width: 50%;
+    width: 100%;
     margin-bottom: 15px;
 }
 

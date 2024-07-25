@@ -4,8 +4,8 @@ const Footer = () => {
     return(
 	    <footer className="py-5">
             <div className="container">
-                <div className="row mb-4">
-                    <div className="col-md-8 footer-header lineas-custom">
+                <div className="row mb-4 contenedor-footer-arriba">
+                    <div className="col-md-8 footer-header">
                         <h1 className="mb-4 titulo-footer">Escribinos, <br />Vamos a trabajar.</h1>
                         <hr className="bg-white hr-tamanio" />
                         <div className="mb-3 d-flex align-items-center">
