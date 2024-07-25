@@ -1,4 +1,4 @@
-.header{
+.header {
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 0.75rem;
@@ -8,13 +8,13 @@
     padding: 0 4.375rem;
 }
 
-.nav-container{
+.nav-container {
     flex-grow: 1;
     display: flex;
     justify-content: center;
 }
 
-.nav-link{
+.nav-link {
     color: #030301;
     font-size: 0.75rem;
     text-decoration: none;
@@ -22,7 +22,7 @@
     margin: 0 0.625rem;
 }
 
-.nav-link::after{
+.nav-link::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -34,11 +34,11 @@
     transition: transform 0.3s ease;
 }
 
-.nav-link:hover::after{
+.nav-link:hover::after {
     transform: scaleX(1);
 }
 
-.hablemos{
+.hablemos {
     font-size: 0.75rem;
     margin-left: auto;
     position: relative;
