@@ -37,9 +37,15 @@ const Footer = () => {
                 <div className="d-flex justify-content-between align-items-center pie-pagina">
                     <p className="mb-0">© 2024 - Desarrollado por Diego Ciriaci Ribone.</p>
                     <div>
-                        <img src="img/img-instagram.svg" alt="Instagram" className="me-3" />
-                        <img src="img/img-pinterest.svg" alt="Pinterest" className="me-3" />
-                        <img src="img/img-behance.svg" alt="Behance" />
+                        <a href="https://www.instagram.com/diegoocrr/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/img-instagram.svg" alt="Instagram" className="me-3" />
+                        </a>
+                        <a href="https://ar.pinterest.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/img-pinterest.svg" alt="Pinterest" className="me-3" />
+                        </a>
+                        <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/img-behance.svg" alt="Behance" />
+                        </a>    
                     </div>
                     <p className="email mb-0">diegociriaci@gmail.com</p>
                 </div>
