@@ -11,7 +11,7 @@ import Trabajos from './Component/Trabajos/Trabajos.jsx'
 import Reviews from './Component/Reviews/Reviews.jsx'
 import Novedades from './Component/Novedades/Novedades.jsx'
 import Footer from './Component/Footer/Footer.jsx'
-import MyModal from './Component/Modal/MyModal.jsx'
+import MyModal from './Component/MyModal/MyModal.jsx'
 
 const App = () => {
   const [showModal, setShowModal] = useState(false)
@@ -28,7 +28,7 @@ const App = () => {
       <Reviews/>
       <Novedades/>
       <Footer onShowModal={handleShowModal}/>
-      <MyModal show={showModal} handleClose={handleCloseModal} />
+      <MyModal show={showModal} handleClose={handleCloseModal}/>
     </>
   )
 }
