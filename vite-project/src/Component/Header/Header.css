@@ -65,3 +65,13 @@
         align-items: flex-start;
     }
 }
+
+@media (max-width: 576px) {
+    .header-custom {
+        font-size: 0.65rem;
+    }
+
+    .nav-link {
+        font-size: 0.65rem;
+    }
+}

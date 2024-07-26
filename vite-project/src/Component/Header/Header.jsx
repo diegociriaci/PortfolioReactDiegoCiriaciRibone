@@ -23,7 +23,7 @@ const Header = ({ onShowModal }) => {
 
     return (
         <header className={`bg-white py-4 d-flex align-items-center header-custom sticky-top ${scrolling ? 'header-transparent' : 'header-solid'}`}>        
-            <div className="container-fluid ">
+            <div className="container-fluid">
                 <nav className="navbar navbar-expand-lg">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
