@@ -43,10 +43,6 @@
 }
 
 .contenedor-presentacion{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start; 
     height: auto;
     padding: 3.125rem 0.625rem;
     margin-left: -7.5rem;
@@ -92,10 +88,6 @@
 }
 
 .foto-perfil-flexbox{
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 3.125rem;
     margin-bottom: 1.875rem;
 }
@@ -110,16 +102,11 @@
 
 .contenedor-info{
     flex: 1;
-    margin-top: 3.75rem;
+    margin-top: 4.95rem;
 }
 
 .info-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-left: 1.875rem;
-    text-align: center;
 }
 
 .info-numero{
@@ -127,8 +114,6 @@
     font-size: 3.75rem;
     font-weight: bold;
     margin-bottom: 0.3125rem;
-    display: flex;
-    align-items: center;
 }
 
 .info-texto{
