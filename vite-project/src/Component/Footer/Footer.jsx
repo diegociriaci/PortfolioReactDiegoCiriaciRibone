@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'
-const Footer = () => {
+const Footer = ({ onShowModal }) => {
     return(
 	    <footer className="py-5">
             <div className="container">
@@ -25,7 +25,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-md-4 text-center d-flex flex-column justify-content-center align-items-center saludo">
-                        <button className="boton-saludo mb-3">
+                        <button className="boton-saludo mb-3" onClick={onShowModal}>
                             <img src="img/img-flecha-diagonal.svg" alt="Flecha diagonal" />
                         </button>
                         <p className="mb-0">

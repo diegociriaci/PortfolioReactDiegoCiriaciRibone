@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-scroll';
-import './Header.css';
+import React, { useEffect, useState } from 'react'
+import { Link } from 'react-scroll'
+import './Header.css'
 
-const Header = () => {
+const Header = ({ onShowModal }) => {
     const [scrolling, setScrolling] = useState(false)
 
     const handleScroll = () => {
@@ -11,7 +11,7 @@ const Header = () => {
         } else {
             setScrolling(false)
         }
-    };
+    }
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
@@ -37,7 +37,7 @@ const Header = () => {
                             <Link className="nav-link" to="trabajos" smooth={true} duration={50}>ULTIMOS TRABAJOS</Link>
                             <Link className="nav-link" to="reviews" smooth={true} duration={50}>OPINIONES DE CLIENTES</Link>
                             <Link className="nav-link" to="novedades" smooth={true} duration={50}>NOVEDADES</Link>
-                            <a className="nav-link hablemos" href="#">Hablemos!</a>
+                            <a className="nav-link hablemos" href="#" onClick={onShowModal}>Hablemos!</a>
                         </div>
                     </div>
                 </nav>
