@@ -23,9 +23,11 @@ const Servicios = () => {
                                 </div>
                                 <div className="d-flex flex-column align-items-end ms-3">
                                     <div className="d-flex align-items-center mb-2 boton-info">
-                                        <button className="btn boton-servicio">
-                                            <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
-                                        </button>
+                                        <a href="https://github.com/diegociriaci?tab=repositories" className="nav-link-hero">
+                                            <button className="btn boton-servicio">
+                                                <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
+                                            </button>
+                                        </a>
                                         <p className="texto-explorar mb-0 ms-2">Explorar</p>
                                     </div>
                                 </div>
@@ -38,9 +40,11 @@ const Servicios = () => {
                                 </div>
                                 <div className="d-flex flex-column align-items-end ms-3">
                                     <div className="d-flex align-items-center mb-2 boton-info">
-                                        <button className="btn boton-servicio">
-                                            <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
-                                        </button>
+                                        <a href="https://github.com/diegociriaci?tab=repositories" className="nav-link-hero">
+                                            <button className="btn boton-servicio">
+                                                <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
+                                            </button>
+                                        </a>
                                         <p className="texto-explorar mb-0 ms-2">Explorar</p>
                                     </div>
                                 </div>
@@ -53,9 +57,11 @@ const Servicios = () => {
                                 </div>
                                 <div className="d-flex flex-column align-items-end ms-3">
                                     <div className="d-flex align-items-center mb-2 boton-info">
-                                        <button className="btn boton-servicio">
-                                            <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
-                                        </button>
+                                        <a href="https://github.com/diegociriaci?tab=repositories" className="nav-link-hero">
+                                            <button className="btn boton-servicio">
+                                                <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
+                                            </button>
+                                        </a>
                                         <p className="texto-explorar mb-0 ms-2">Explorar</p>
                                     </div>
                                 </div>
