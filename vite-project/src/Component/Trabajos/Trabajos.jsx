@@ -1,6 +1,8 @@
 import React from 'react';
 import './Trabajos.css'
 const Trabajos = () => {
+
+
     return(
 	    <section id="trabajos" className="works py-5">
             <div className="container">
@@ -25,10 +27,12 @@ const Trabajos = () => {
                     </div>
                 </div>
                 <div className="text-center mt-4">
-                    <button className="btn boton-trabajos">
-                        <img className="imagen-flecha-boton-trabajos" src="img/img-flecha-diagonal.svg" alt="" />
-                        Mira todos los trabajos
-                    </button>
+                    <a href="https://github.com/diegociriaci?tab=repositories" className="nav-link-hero">
+                        <button className="btn boton-trabajos">
+                            <img className="imagen-flecha-boton-trabajos" src="img/img-flecha-diagonal.svg" alt="" />
+                            Mira todos los trabajos
+                        </button>
+                    </a>   
                 </div>
             </div>
         </section>
