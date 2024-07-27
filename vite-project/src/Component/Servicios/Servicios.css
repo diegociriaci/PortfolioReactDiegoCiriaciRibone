@@ -254,7 +254,7 @@
     }
 }
 
-@media (min-width: 1025px) and (max-width:1400px){
+@media (min-width: 1025px) and (max-width:1400px) {
     .servicios{
         /* flex-direction: column; */
         padding: 1.5rem;

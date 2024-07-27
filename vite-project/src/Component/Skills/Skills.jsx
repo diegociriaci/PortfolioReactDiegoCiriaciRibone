@@ -2,7 +2,7 @@ import React from 'react'
 import './Skills.css'
 const Skills = () => {
     return(
-        <section id="skills" className="skills py-5">
+        <section id="skills" className="skills d-flex flex-row justify-content-between py-5">
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 skills-header">
@@ -10,12 +10,12 @@ const Skills = () => {
                         <p className="skills-descripcion">Cuento con experiencia en el manejo básico-intermedio a nivel académico de: Python, C#, HTML, CSS, MySQL y Git.</p>
                         <div className="habilidades">
                             <h2>Habilidades</h2>
-                            <div className="row imagenes-skills">
+                            <div className="row d-flex align-items-center flex-wrap imagenes-skills">
                                 <div className="col-6 col-md-4 mb-1 imagenes-skills-caja">
                                     <img src="img/img-python.svg" alt="Python" />
                                     <p>Python</p>
                                 </div>
-                                <div className="col-6 col-md-4 mb-1 imagenes-skills-caja">
+                                <div className="col-6 col-md-4 mb-1 d-flex align-items-center justify-content-center flex-column imagenes-skills-caja">
                                     <img src="img/img-csharp.svg" alt="C#" />
                                     <p>C#</p>
                                 </div>
@@ -38,17 +38,17 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-8 experiencia-lista">
+                    <div className="col-md-8 d-flex flex-column aling-items-start experiencia-lista">
                         <h2>Experiencia</h2>
-                        <hr className="my-3" />
+                        <hr className="my-3"/>
                         <div className="experiencia-item d-flex align-items-center">
                             <button className="fechas-contenedor">
                                 <p className="fechas mb-0">2019-PRESENT</p>
                             </button>
-                            <p className="ocupacion flex-grow-1 mb-0 text-center">WEB UI/UX DESIGNER</p>
+                            <p className="ocupacion flex-grow-1 d-fle mb-0 text-center">WEB UI/UX DESIGNER</p>
                             <p className="plataforma mb-0 ms-auto">Instagram</p>
                         </div>
-                        <hr className="my-3" />
+                        <hr className="my-3"/>
                         <div className="experiencia-item d-flex align-items-center">
                             <button className="fechas-contenedor">
                                 <p className="fechas mb-0">2019-PRESENT</p>
@@ -56,7 +56,7 @@ const Skills = () => {
                             <p className="ocupacion flex-grow-1 mb-0 text-center">WEB UI/UX DESIGNER</p>
                             <p className="plataforma mb-0 ms-auto">Facebook</p>
                         </div>
-                        <hr className="my-3" />
+                        <hr className="my-3"/>
                         <div className="experiencia-item d-flex align-items-center">
                             <button className="fechas-contenedor">
                                 <p className="fechas mb-0">2019-PRESENT</p>

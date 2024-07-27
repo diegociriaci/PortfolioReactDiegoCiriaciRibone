@@ -1,8 +1,8 @@
 .skills{
     background-color: #efdfd2;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */
     height: auto;
     padding: 3.125rem 4.375rem;
 }
@@ -44,9 +44,9 @@
 }
 
 .imagenes-skills{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     width: 100%;
     margin-top: 1.25rem;
     gap: 0.625rem;
@@ -63,12 +63,12 @@
 .imagenes-skills-caja{
     background-color: #f4eae1;
     padding: 0.625rem;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     box-sizing: border-box;
     text-align: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex: 0 0 calc(33.33% - 1.875rem);
 }
 
@@ -86,9 +86,9 @@
 }
 
 .experiencia-lista{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; */
     margin-left: auto;
     width: 61%;
     margin-bottom: 1.25rem;
@@ -101,7 +101,7 @@
 }
 
 .experiencia-item{
-    display: flex;
+    /* display: flex; */
     width: 100%;
     margin-bottom: 1.875rem;
     font-size: 1.2em;
@@ -150,4 +150,284 @@
     background-color: #000;
     margin: 1.25rem 0;
     width: 100%;
+}
+
+@media (max-width: 480px) {
+    .skills{
+        /* flex-direction: row; */
+        padding: 1.5rem;
+    }
+
+    .skills-header{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .skills-header h1{
+        font-size: 1.5em;
+    }
+
+    .skills-descripcion{
+        font-size: 1rem;
+    }
+
+    .habilidades h2{
+        font-size: 1.1em;
+    }
+
+    .imagenes-skills{
+        /* flex-direction: row; */
+        align-items: center;
+    }
+
+    .imagenes-skills-caja{
+        /* flex: 0 0 100%; */
+        margin-bottom: 1rem;
+        width: 30%;
+        flex-wrap: wrap;
+    }
+
+    .imagenes-skills-caja img{
+        width: 3rem;
+    }
+
+    .imagenes-skills-caja p{
+        font-size: 0.75rem;
+    }
+
+    .experiencia-lista{
+        width: 100%;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .experiencia-item {
+        font-size: 1rem;
+        /* flex-direction: column; */
+        align-items: flex-start;
+    }
+
+    .fechas-contenedor{
+        width: 7.5rem;
+        height: 2.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .fechas{
+        font-size: 0.625rem;
+    }
+
+    .ocupacion{
+        font-size: 1rem;
+    }
+
+    .plataforma{
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .skills {
+        /* flex-direction: column; */
+        padding: 2rem;
+    }
+
+    .skills-header{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2rem 0.5rem;
+    }
+
+    .skills-header h1{
+        font-size: 1.8em;
+    }
+
+    .skills-descripcion{
+        font-size: 1.125rem;
+    }
+
+    .habilidades h2{
+        font-size: 1.2em;
+    }
+
+    .imagenes-skills{
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .imagenes-skills-caja{
+        /* flex: 0 0 50%; */
+        margin-bottom: 1rem;
+        width: 50%;
+        flex-wrap: wrap;
+    }
+
+    .imagenes-skills-caja img{
+        width: 3.3rem;
+    }
+
+    .imagenes-skills-caja p{
+        font-size: 0.8rem;
+    }
+
+    .experiencia-lista{
+        width: 100%;
+        padding: 2rem 0.5rem;
+    }
+
+    .experiencia-item{
+        font-size: 1.1em;
+        /* flex-direction: column; */
+        align-items: flex-start;
+    }
+
+    .fechas-contenedor{
+        width: 8rem;
+        height: 2.75rem;
+        padding: 0.5rem 1.25rem;
+    }
+
+    .fechas{
+        font-size: 0.75rem;
+    }
+
+    .ocupacion{
+        font-size: 1.1rem;
+    }
+
+    .plataforma{
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .skills{
+        /* flex-direction: row; */
+        padding: 2.5rem;
+    }
+
+    .skills-header{
+        width: 40%;
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+
+    .skills-header h1{
+        font-size: 2em;
+    }
+
+    .skills-descripcion{
+        font-size: 1.2rem;
+    }
+
+    .habilidades h2{
+        font-size: 1.25em;
+    }
+
+    .imagenes-skills{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .imagenes-skills-caja{
+        flex: 0 0 calc(33.33% - 1.25rem);
+        margin-bottom: 1.25rem;
+    }
+
+    .imagenes-skills-caja img{
+        width: 2.75rem;
+    }
+
+    .imagenes-skills-caja p{
+        font-size: 0.875rem;
+    }
+
+    .experiencia-lista{
+        width: 60%;
+    }
+
+    .experiencia-item{
+        font-size: 1.2em;
+    }
+
+    .fechas-contenedor{
+        width: 8rem;
+        height: 3rem;
+        padding: 0.625rem 1.25rem;
+    }
+
+    .fechas{
+        font-size: 0.70rem;
+    }
+
+    .ocupacion{
+        font-size: 1.025rem;
+    }
+
+    .plataforma{
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .skills{
+        padding: 4rem 6rem;
+    }
+
+    .skills-header{
+        width: 40%;
+        margin-left: -4rem;
+        margin-right: -4rem;
+        padding: 3.125rem 0.625rem;
+    }
+
+    .skills-header h1{
+        font-size: 2em;
+    }
+
+    .skills-descripcion{
+        font-size: 1.125rem;
+    }
+
+    .habilidades h2{
+        font-size: 1.3em;
+    }
+
+    .imagenes-skills-caja img{
+        width: 3rem;
+    }
+
+    .imagenes-skills-caja p{
+        font-size: 0.875rem;
+    }
+
+    .experiencia-lista{
+        width: 58%;
+        padding: 3.125rem 0.625rem;
+    }
+
+    .experiencia-item{
+        font-size: 1.5em;
+        padding: 1rem 0;
+    }
+
+    .fechas-contenedor{
+        width: 9.375rem;
+        height: 3.5rem;
+        padding: 0.75rem 1.5rem;
+    }
+
+    .fechas{
+        font-size: 0.75rem;
+    }
+
+    .ocupacion{
+        font-size: 1.25rem;
+    }
+
+    .plataforma{
+        font-size: 1rem;
+    }
 }
