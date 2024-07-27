@@ -3,7 +3,7 @@
     font-weight: bold;
     font-size: 0.75rem;
     color: #122140;
-    padding: 0 4.375rem;
+    /* padding: 0 4.375rem; */
 }
 
 .header-custom.header-transparent{
@@ -11,10 +11,11 @@
     transition: background-color 0.3s ease;
 }
 
-.header-custom.header-solid{
+.header-custom .header-solid{
     background-color: #ffffff !important;
     transition: background-color 0.3s ease;
 }
+
 
 .nav-link{
     color: #030301;
@@ -58,14 +59,6 @@
     flex-wrap: wrap;
     gap: 0.5rem;
 }
-
-@media (max-width: 992px){
-    .navbar-nav{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
 @media (max-width: 576px) {
     .header-custom {
         font-size: 0.65rem;
@@ -75,3 +68,11 @@
         font-size: 0.65rem;
     }
 }
+
+@media (max-width: 992px){
+    .navbar-nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+

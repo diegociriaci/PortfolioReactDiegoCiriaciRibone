@@ -1,5 +1,6 @@
 .hero{
     background-color: #efdfd2;
+    padding-top: 2rem;
 }
 
 .nombre-apellido{
@@ -44,15 +45,17 @@
 
 .contenedor-presentacion{
     height: auto;
-    padding: 3.125rem 0.625rem;
-    margin-left: -7.5rem;
-    margin-right: -7.5rem;
+    /* padding: 3.125rem 0.625rem; */
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    width: 85%;
 }
 
 .mi-presentacion{
     flex: 1;
     margin-top: 5rem;
-    padding-left: 0;
+    padding: 0;
+    width: 50%;
 }
 
 .mi-presentacion p{
@@ -65,9 +68,6 @@
 .boton-contratame{
     background-color: #fc540d;
     color: #fffdf4;
-    border: none;
-    display: block;
-    margin-top: 1.25rem;
     padding: 0.625rem 1.25rem;
     font-size: 1rem;
     cursor: pointer;
@@ -103,6 +103,7 @@
 .contenedor-info{
     flex: 1;
     margin-top: 4.95rem;
+    /* width: 0; */
 }
 
 .info-item{
@@ -125,12 +126,13 @@
 
 .contenedor-puntuacion{
     width: 18.75rem;
-    height: 11.25rem;
-    position: relative;
+    /* height: 11.25rem; */
+    /* position: relative; */
     bottom: 11.25rem;
-    padding: 0.625rem 0.625rem;
-    margin-left: -7.5rem;
-    margin-right: -7.5rem;
+    /* padding: 0.625rem 0.625rem; */
+    margin-top: 1.10rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
 }
 
 .imagen-clutch img{
@@ -153,4 +155,244 @@
     color: #87878c;
     font-family: Helvetica;
     font-size: 0.9375rem;
+}
+
+@media (max-width: 480px){
+    .nombre-apellido, .desarrollador-nombre{
+        font-size: 1.5rem;
+    }
+
+    .redes{
+        font-size: 0.65rem;
+        line-height: 2rem;
+    }
+
+    .nav-link-hero{
+        margin: 0 0.5rem;
+    }
+
+    .imagen-flecha{
+        width: 1rem;
+    }
+
+    .mi-presentacion{
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    .mi-presentacion p{
+        font-size: 1rem;
+    }
+
+    .boton-contratame{
+        padding: 0.063rem 0.188rem;
+    }
+
+    .contenedor-presentacion{
+        height: auto;
+        margin-left: 1.8rem;
+        margin-right: 1.8rem;
+        width: 85%;       
+    }
+
+    .foto-perfil{
+        width: 100%;
+        max-width: 15rem;
+        max-height: 15rem;
+        border-radius: 50%;
+    }
+
+    .contenedor-info{
+        padding-right: 3.125rem;
+    }
+
+    .info-numero{
+        font-size: 2.5rem;
+    }
+
+    .info-texto{
+        font-size: 0.65rem;
+    }
+
+    .contenedor-puntuacion{
+        visibility: hidden;   
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .nombre-apellido, .desarrollador-nombre{
+        font-size: 2rem;
+    }
+
+    .redes{
+        font-size: 0.7rem;
+        line-height: 2.5rem;
+    }
+
+    .nav-link-hero{
+        margin: 0 0.75rem;
+    }
+
+    .imagen-flecha{
+        width: 1.125rem;
+    }
+
+    .mi-presentacion{
+        padding: 0 1.5rem;
+        width: 100%;
+    }
+
+    .mi-presentacion p{
+        font-size: 1.125rem;
+    }
+
+    .boton-contratame{
+        padding: 0.063rem 0.188rem;
+    }
+
+    .contenedor-presentacion{
+        height: auto;
+        margin-left: 1.8rem;
+        margin-right: 1.8rem;
+        width: 85%;       
+    }
+
+    .foto-perfil{
+        width: 100%;
+        max-width: 18rem;
+        max-height: 18rem;
+        border-radius: 50%;
+    }
+
+    .contenedor-info{
+        padding-right: 3.125rem;
+    }
+
+    .info-numero{
+        font-size: 3rem;
+    }
+
+    .info-texto{
+        font-size: 0.7rem;
+    }
+
+    .contenedor-puntuacion{
+        visibility: hidden;   
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nombre-apellido, .desarrollador-nombre{
+        font-size: 2.2rem;
+    }
+
+    .redes{
+        font-size: 0.75rem;
+        line-height: 2.8rem;
+    }
+
+    .nav-link-hero{
+        margin: 0 0.75rem;
+    }
+
+    .imagen-flecha{
+        width: 1.125rem;
+    }
+
+    .mi-presentacion{
+        padding: 0 2rem;
+        width: 100%;
+    }
+
+    .mi-presentacion p{
+        font-size: 1.2rem;
+    }
+
+    .boton-contratame{
+        padding: 0.063rem 0.188rem;
+    }
+
+    .contenedor-presentacion{
+        height: auto;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 95%;       
+    }
+
+    .foto-perfil{
+        width: 100%;
+        max-width: 23rem;
+        max-height: 23rem;
+        border-radius: 50%;
+    }
+
+    .info-numero{
+        font-size: 3.1rem;
+    }
+
+    .info-texto{
+        font-size: 0.65rem;
+    }
+
+    .contenedor-puntuacion {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .nombre-apellido, .desarrollador-nombre{
+        font-size: 2.5rem;
+    }
+
+    .redes{
+        font-size: 0.75rem;
+        line-height: 3.125rem;
+    }
+
+    .nav-link-hero{
+        margin: 0 0.625rem;
+    }
+
+    .imagen-flecha{
+        width: 1.125rem;
+    }
+
+    .mi-presentacion{
+        padding: 0 3rem;
+        width: 100%;
+    }
+
+    .mi-presentacion p{
+        font-size: 1.125rem;
+    }
+
+    .boton-contratame{
+        padding: 0.625rem 1.25rem;
+    }
+
+    .contenedor-presentacion{
+        height: auto;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        width: 85%;       
+    }
+
+    .foto-perfil{
+        width: 100%;
+        max-width: 23rem;
+        max-height: 23rem;
+        border-radius: 50%;
+    }
+
+    .info-numero{
+        font-size: 3.75rem;
+    }
+
+    .info-texto{
+        font-size: 0.75rem;
+    }
+
+    .contenedor-puntuacion{
+        max-width: 18.75rem;
+    }
 }
