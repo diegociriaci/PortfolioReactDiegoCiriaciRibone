@@ -9,9 +9,9 @@ const Novedades = () => {
                         <h1>Novedades</h1>
                     </div>
                 </div>
-                <div className="card-container">
+                <div className="card-container d-flex justify-content-around flex-wrap">
                     <div className="card h-100 card-custom">
-                        <div className="imagen-novedad">
+                        <div className="imagen-novedad d-flex justify-content-center align-items-center">
                             <img src="img/img-novedad-1.jpg" className="card-img-top" alt="Novedad 1" />
                         </div>
                         <div className="card-body">
@@ -19,7 +19,7 @@ const Novedades = () => {
                         </div>
                     </div>
                     <div className="card h-100 card-custom">
-                        <div className="imagen-novedad">
+                        <div className="imagen-novedad d-flex justify-content-center align-items-center">
                             <img src="img/img-novedad-2.jpg" className="card-img-top" alt="Novedad 2" />
                         </div>
                         <div className="card-body">
@@ -27,7 +27,7 @@ const Novedades = () => {
                         </div>
                     </div>
                     <div className="card h-100 card-custom">
-                        <div className="imagen-novedad">
+                        <div className="imagen-novedad d-flex justify-content-center align-items-center">
                             <img src="img/img-novedad-3.jpg" className="card-img-top" alt="Novedad 3" />
                         </div>
                         <div className="card-body">
