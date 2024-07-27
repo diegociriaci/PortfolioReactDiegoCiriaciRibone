@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 const Footer = ({ onShowModal }) => {
     return(
-	    <footer className="py-5">
+	    <footer className="py-5 d-flex flex-direction-column">
             <div className="container">
                 <div className="row mb-4 contenedor-footer-arriba">
                     <div className="col-md-8 footer-header">
@@ -15,7 +15,7 @@ const Footer = ({ onShowModal }) => {
                                 <p className="info-contacto-subtitulo mb-0">diegociriaci@gmail.com</p>
                             </div>
                         </div>
-                        <hr className="bg-white hr-tamanio" />
+                        <hr className="bg-white hr-tamanio"/>
                         <div className="mb-3 d-flex align-items-center">
                             <img className="icono-mensaje-ubicacion me-3" src="img/img-ubicacion.svg" alt="Icono de ubicación" />
                             <div>
@@ -26,10 +26,10 @@ const Footer = ({ onShowModal }) => {
                     </div>
                     <div className="col-md-4 text-center d-flex flex-column justify-content-center align-items-center saludo">
                         <button className="boton-saludo mb-3" onClick={onShowModal}>
-                            <img src="img/img-flecha-diagonal.svg" alt="Flecha diagonal" />
+                            <img src="img/img-flecha-diagonal.svg" alt="Flecha diagonal"/>
                         </button>
                         <p className="mb-0">
-                            <img src="img/img-mano.svg" alt="Icono de mano" /> Saludar!
+                            <img src="img/img-mano.svg" alt="Icono de mano"/> Saludar!
                         </p>
                     </div>
                 </div>
@@ -38,13 +38,13 @@ const Footer = ({ onShowModal }) => {
                     <p className="mb-0">© 2024 - Desarrollado por Diego Ciriaci Ribone.</p>
                     <div>
                         <a href="https://www.instagram.com/diegoocrr/" target="_blank" rel="noopener noreferrer">
-                            <img src="img/img-instagram.svg" alt="Instagram" className="me-3" />
+                            <img src="img/img-instagram.svg" alt="Instagram" className="me-3"/>
                         </a>
                         <a href="https://ar.pinterest.com/" target="_blank" rel="noopener noreferrer">
-                            <img src="img/img-pinterest.svg" alt="Pinterest" className="me-3" />
+                            <img src="img/img-pinterest.svg" alt="Pinterest" className="me-3"/>
                         </a>
                         <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
-                            <img src="img/img-behance.svg" alt="Behance" />
+                            <img src="img/img-behance.svg" alt="Behance"/>
                         </a>    
                     </div>
                     <p className="email mb-0">diegociriaci@gmail.com</p>

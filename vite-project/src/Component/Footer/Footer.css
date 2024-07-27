@@ -1,7 +1,5 @@
 footer{
     background-color: #fc5811;
-    display: flex;
-    flex-direction: column;
     padding: 1.25rem;
     color: white;
 }
@@ -103,3 +101,5 @@ footer{
     background-color: #fff;
     margin-left: -8.125rem;
 }
+
+
