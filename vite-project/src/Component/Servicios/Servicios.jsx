@@ -14,15 +14,16 @@ const Servicios = () => {
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <div className="servicios-lista">
+                        <div className="servicios-lista d-flex flex-column ">
                             <hr />
+
                             <div className="servicio-item d-flex align-items-center">
                                 <p className="num mb-0">01/</p>
-                                <div className="">
-                                    <p className="nombre-servicio mb-0">Diseño gráfico</p>
+                                <div className="d-flex flex-column flex-grow-1 ms-3">
+                                    <p className="nombre-servicio mb-0 align-self-start">Diseño gráfico</p>
                                 </div>
                                 <div className="d-flex flex-column align-items-end ms-3">
-                                    <div className="d-flex align-items-center mb-2 boton-info">
+                                    <div className="d-flex align-items-center align-self-center flex-column mb-2 boton-info">
                                         <a href="https://github.com/diegociriaci?tab=repositories" className="nav-link-hero">
                                             <button className="btn boton-servicio">
                                                 <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
@@ -32,14 +33,15 @@ const Servicios = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <hr />
-                            <div className="servicio-item d-flex align-items-center">
+                            <div className="servicio-item d-flex align-items-center justify-content-between">
                                 <p className="num mb-0">02/</p>
                                 <div className="d-flex flex-column flex-grow-1 ms-3">
                                     <p className="nombre-servicio mb-0">Diseño de interfaz de usuario</p>
                                 </div>
                                 <div className="d-flex flex-column align-items-end ms-3">
-                                    <div className="d-flex align-items-center mb-2 boton-info">
+                                    <div className="d-flex align-items-center align-self-center flex-column mb-2 boton-info">
                                         <a href="https://github.com/diegociriaci?tab=repositories" className="nav-link-hero">
                                             <button className="btn boton-servicio">
                                                 <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
@@ -49,14 +51,15 @@ const Servicios = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <hr />
-                            <div className="servicio-item d-flex align-items-center">
+                            <div className="servicio-item d-flex align-items-center justify-content-between">
                                 <p className="num mb-0">03/</p>
                                 <div className="d-flex flex-column flex-grow-1 ms-3">
                                     <p className="nombre-servicio mb-0">Administración de base de datos</p>
                                 </div>
                                 <div className="d-flex flex-column align-items-end ms-3">
-                                    <div className="d-flex align-items-center mb-2 boton-info">
+                                    <div className="d-flex align-items-center align-self-center flex-column mb-2 boton-info">
                                         <a href="https://github.com/diegociriaci?tab=repositories" className="nav-link-hero">
                                             <button className="btn boton-servicio">
                                                 <img src="img/img-flecha-diagonal.svg" alt="Flecha" />
@@ -66,6 +69,7 @@ const Servicios = () => {
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
