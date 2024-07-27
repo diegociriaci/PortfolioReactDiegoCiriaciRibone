@@ -14,6 +14,7 @@
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 2em;
+    margin-left: -4.5rem;
 }
 
 .carousel{
@@ -37,9 +38,9 @@
 }
 
 .opinion{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     text-align: center;
     height: 100%;
 }
@@ -49,11 +50,11 @@
     background-position: center;
     padding: 1.25rem;
     box-sizing: border-box;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     text-align: center;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .imagen-perfil{
@@ -61,12 +62,6 @@
     height: 5rem;
     border-radius: 50%;
     margin-bottom: 1.25rem;
-}
-
-.informacion-persona{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .nombre-persona-opinion{
@@ -87,3 +82,125 @@
     margin-bottom: 3.125rem;
 }
 
+@media (max-width: 480px) {
+    .reviews{
+        padding: 1.5rem 1rem;
+    }
+
+    .reviews-header{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .reviews-header h1{
+        font-size: 1.5em;
+        margin-left: 0;
+    }
+
+    .carousel{
+        width: 93%;
+    }
+
+    .contenedor-opiniones{
+        padding: 0.625rem;
+    }
+
+    .imagen-perfil{
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .texto-opinion{
+        font-size: 0.75rem;
+        max-width: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .reviews{
+        padding: 2rem 2rem;
+    }
+
+    .reviews-header{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1.5rem;
+        margin-left: -2rem;
+    }
+
+    .reviews-header h1{
+        font-size: 1.75em;
+        margin-left: 7.813rem;
+    }
+
+    .contenedor-opiniones{
+        padding: 0.75rem;
+    }
+
+    .imagen-perfil{
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .texto-opinion {
+        font-size: 0.8125rem;
+        max-width: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .reviews{
+        padding: 2.5rem 4rem;
+    }
+
+    .reviews-header{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1.5rem;
+        margin-left: -2rem;
+    }
+
+    .reviews-header h1{
+        font-size: 1.875em;
+        margin-left: 0.01rem;
+    }
+
+    .contenedor-opiniones{
+        padding: 1rem;
+    }
+
+    .imagen-perfil{
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .texto-opinion{
+        font-size: 0.85rem;
+        max-width: 90%;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .reviews{
+        padding: 3.125rem 3.625rem;
+    }
+
+    .reviews-header{
+        width: 100%;
+        margin-left: -1rem;
+        margin-right: -4rem;
+        padding-top: 3rem;
+    }
+
+    .reviews-header h1{
+        font-size: 2.25em;
+        margin-left: 0.90rem;
+    }
+}
