@@ -1,7 +1,6 @@
-// src/Component/Modal/MyModal.jsx
-import React, { useState } from 'react';
-import { Modal, Button, Form } from 'react-bootstrap';
-import NotificacionFormulario from '../NotificacionFormulario/NotificacionFormulario';
+import React, { useState } from 'react'
+import { Modal, Button, Form } from 'react-bootstrap'
+import NotificacionFormulario from '../NotificacionFormulario/NotificacionFormulario'
 
 const MyModal = ({ show, handleClose }) => {
     const [formData, setFormData] = useState({
@@ -12,55 +11,101 @@ const MyModal = ({ show, handleClose }) => {
         empresa: '',
         descripcion: '',
         comentarios: '',
-    });
+    })
 
-    const [errors, setErrors] = useState({});
-    const [toastVisible, setToastVisible] = useState(false);
-    const [toastMessage, setToastMessage] = useState('');
+    const [errors, setErrors] = useState({})
+    const [toastVisible, setToastVisible] = useState(false)
+    const [toastMessage, setToastMessage] = useState('')
 
-    // Handle input changes
+
     const handleChange = (e) => {
-        const { name, value } = e.target;
+        const { name, value } = e.target
         setFormData((prevData) => ({
             ...prevData,
-            [name]: value,
-        }));
+            [name]: value.trimStart(),
+        }))
+    }
+
+    const handleKeyPress = (e) => {
+        const charCode = e.charCode
+        if (charCode < 48 || charCode > 57) {
+            e.preventDefault()
+        }
+    }
+
+    const handleKeyPressLetters = (e) => {
+        const {value } = e.target
+        const charCode = e.charCode;
+
+        
+        const isLetter = (charCode >= 65 && charCode <= 90) || 
+                         (charCode >= 97 && charCode <= 122) || 
+                         (charCode >= 192 && charCode <= 255)
+
+        const isSpace = charCode === 32;
+
+        if (isLetter || (isSpace && value[value.length - 1] !== ' ')) {
+            return
+        }
+
+        e.preventDefault()
+    }
+
+    const handleKeyPressEmail = (e) => {
+        if (e.charCode === 32) {
+            e.preventDefault();
+        }
     };
 
-    // Validate form fields
+    // Validacion de los campos del formulario
     const validate = () => {
-        const newErrors = {};
-        const namePattern = /^[A-Za-zÀ-ÖØ-ÿ]+$/;
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const phonePattern = /^[0-9]+$/;
-        const companyPattern = /^[A-Za-z0-9\s]*$/;
+        const newErrors = {}
+        const nombrePattern = /^[A-Za-zÀ-ÖØ-ÿ\s]+$/
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+        const telefonoPattern = /^[0-9]+$/
 
-        if (!namePattern.test(formData.nombre)) {
-            newErrors.nombre = 'El nombre solo puede contener letras.';
+        if (!formData.nombre.trim()) {
+            newErrors.nombre = 'El nombre es obligatorio.'
+        } else if (!nombrePattern.test(formData.nombre)) {
+            newErrors.nombre = 'El nombre solo puede contener letras.'
         }
-        if (!namePattern.test(formData.apellido)) {
-            newErrors.apellido = 'El apellido solo puede contener letras.';
+
+        if (!formData.apellido.trim()) {
+            newErrors.apellido = 'El apellido es obligatorio.'
+        } else if (!nombrePattern.test(formData.apellido)) {
+            newErrors.apellido = 'El apellido solo puede contener letras.'
         }
-        if (!emailPattern.test(formData.correo)) {
-            newErrors.correo = 'Ingresa un correo electrónico válido.';
+        
+        if (!formData.correo.trim()) {
+            newErrors.correo = 'El correo electrónico es obligatorio.'
+        } else if (!emailPattern.test(formData.correo) || /\s/.test(formData.correo))  {
+            newErrors.correo = 'Ingresa un correo electrónico válido.'
         }
-        if (!phonePattern.test(formData.telefono)) {
-            newErrors.telefono = 'El número de teléfono solo puede contener dígitos.';
+        
+        if (!formData.telefono.trim()) {
+            newErrors.telefono = 'El número de teléfono es obligatorio.'
+        } else if (!telefonoPattern.test(formData.telefono)) {
+            newErrors.telefono = 'El número de teléfono solo puede contener dígitos.'
         }
-        if (formData.empresa && !companyPattern.test(formData.empresa)) {
-            newErrors.empresa = 'El nombre de la empresa solo puede contener letras, números y espacios.';
+        
+        if (!formData.empresa.trim()) {
+            newErrors.empresa = 'El nombre de la empresa es obligatorio.'
+        }
+
+        if (!formData.descripcion.trim()) {
+            newErrors.descripcion = 'La descripción del proyecto es obligatoria.'
         }
         setErrors(newErrors);
-        return Object.keys(newErrors).length === 0;
-    };
+        return Object.keys(newErrors).length === 0
+    }
 
-    // Handle form submission
+
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault()
         if (validate()) {
             // Mostrar el toast
-            setToastMessage('¡Formulario enviado exitosamente!');
-            setToastVisible(true);
+            setToastMessage('¡Formulario enviado exitosamente!')
+            setToastVisible(true)
 
             // Limpiar los datos del formulario
             setFormData({
@@ -71,12 +116,12 @@ const MyModal = ({ show, handleClose }) => {
                 empresa: '',
                 descripcion: '',
                 comentarios: '',
-            });
+            })
 
             // Cerrar el modal después de mostrar el toast
-            handleClose();
+            handleClose()
         }
-    };
+    }
 
     return (
         <>
@@ -90,7 +135,7 @@ const MyModal = ({ show, handleClose }) => {
                     descripcion: '',
                     comentarios: '',
                 });
-                handleClose();
+                handleClose()
             }} backdrop="static" keyboard={false}>
                 <Modal.Header closeButton>
                     <Modal.Title>Contacta con nosotros</Modal.Title>
@@ -103,9 +148,9 @@ const MyModal = ({ show, handleClose }) => {
                                 type="text" 
                                 name="nombre" 
                                 value={formData.nombre} 
-                                onChange={handleChange} 
+                                onChange={handleChange}
+                                onKeyPress={handleKeyPressLetters}
                                 placeholder="Ingresa tu nombre"
-                                pattern="[A-Za-zÀ-ÖØ-ÿ]+" 
                                 required
                                 isInvalid={!!errors.nombre}
                             />
@@ -119,9 +164,9 @@ const MyModal = ({ show, handleClose }) => {
                                 type="text" 
                                 name="apellido" 
                                 value={formData.apellido} 
-                                onChange={handleChange} 
+                                onChange={handleChange}
+                                onKeyPress={handleKeyPressLetters}
                                 placeholder="Ingresa tu apellido"
-                                pattern="[A-Za-zÀ-ÖØ-ÿ]+" 
                                 required
                                 isInvalid={!!errors.apellido}
                             />
@@ -135,7 +180,8 @@ const MyModal = ({ show, handleClose }) => {
                                 type="email" 
                                 name="correo" 
                                 value={formData.correo} 
-                                onChange={handleChange} 
+                                onChange={handleChange}
+                                onKeyPress={handleKeyPressEmail}
                                 placeholder="Ingresa tu correo electrónico"
                                 required
                                 isInvalid={!!errors.correo}
@@ -150,9 +196,9 @@ const MyModal = ({ show, handleClose }) => {
                                 type="text" 
                                 name="telefono" 
                                 value={formData.telefono} 
-                                onChange={handleChange} 
+                                onChange={handleChange}
+                                onKeyPress={handleKeyPress}
                                 placeholder="Ingresa tu número de teléfono"
-                                pattern="[0-9]+" 
                                 required
                                 isInvalid={!!errors.telefono}
                             />
@@ -166,9 +212,10 @@ const MyModal = ({ show, handleClose }) => {
                                 type="text" 
                                 name="empresa" 
                                 value={formData.empresa} 
-                                onChange={handleChange} 
+                                onChange={handleChange}
+                                onKeyPress={handleKeyPressLetters}
                                 placeholder="Ingresa el nombre de la empresa o proyecto"
-                                pattern="[A-Za-z0-9\s]*"
+                                required
                                 isInvalid={!!errors.empresa}
                             />
                             <Form.Control.Feedback type="invalid">
@@ -181,10 +228,16 @@ const MyModal = ({ show, handleClose }) => {
                                 as="textarea" 
                                 name="descripcion" 
                                 value={formData.descripcion} 
-                                onChange={handleChange} 
-                                rows={3} 
+                                onChange={handleChange}
+                                onKeyPress={handleKeyPressLetters}
+                                rows={10} 
                                 placeholder="Ingresa la descripción del proyecto"
+                                required
+                                isInvalid={!!errors.descripcion}
                             />
+                            <Form.Control.Feedback type="invalid">
+                                {errors.descripcion}
+                            </Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group controlId="formComentarios" className="mt-3">
                             <Form.Label>Comentarios Adicionales</Form.Label>
@@ -192,8 +245,8 @@ const MyModal = ({ show, handleClose }) => {
                                 as="textarea" 
                                 name="comentarios" 
                                 value={formData.comentarios} 
-                                onChange={handleChange} 
-                                rows={3} 
+                                onChange={handleChange}
+                                rows={10} 
                                 placeholder="Ingresa comentarios adicionales"
                             />
                         </Form.Group>
