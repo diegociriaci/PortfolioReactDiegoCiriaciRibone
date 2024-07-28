@@ -102,4 +102,138 @@ footer{
     margin-left: -8.125rem;
 }
 
+@media (max-width: 480px) {
+    .footer-header{
+        margin-left: 0;
+        margin-right: 0;
+        text-align: start;
+    }
 
+    .titulo-footer{
+        font-size: 1.5rem;
+    }
+
+    .boton-saludo{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .boton-saludo img{
+        width: 4rem;
+        height: 4rem;
+        transform: translate(-5px, -1px);
+    }
+
+    .hr-tamanio{
+        width: 75%;
+    }
+
+    .pie-pagina{
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -40px;
+    }
+
+    .pie-pagina p, .email{
+        visibility: hidden;
+    }
+
+    .hr-final{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .footer-header{
+        margin-left: 0;
+        margin-right: 0;
+        text-align: start;
+    }
+
+    .titulo-footer{
+        font-size: 1.75rem;
+    }
+
+    .boton-saludo{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .boton-saludo img{
+        width: 6rem;
+        height: 6rem;
+        transform: translate(1px, -1px);
+    }
+
+    .hr-tamanio{
+        width: 61%;
+    }
+
+    .pie-pagina{
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -40px;
+    }
+
+    .pie-pagina p, .email{
+        visibility: hidden;
+    }
+
+    .hr-final{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer-header{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .titulo-footer{
+        font-size: 2rem;
+    }
+
+    .pie-pagina{
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .hr-tamanio{
+        width: 51%;
+    }
+
+    .pie-pagina p, .email{
+        font-size: 0.875rem;
+    }
+
+    .hr-final{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .footer-header{
+        margin-left: -1rem;
+        margin-right: -4rem;
+    }
+
+    .titulo-footer{
+        font-size: 2.25rem;
+    }
+
+    .pie-pagina{
+        margin-left: -1.25rem;
+        justify-content: space-between;
+    }
+
+    .pie-pagina p, .email{
+        font-size: 1rem;
+    }
+
+    .hr-final{
+        margin-left: -8.125rem;
+    }
+}
