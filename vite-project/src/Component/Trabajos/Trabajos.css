@@ -177,3 +177,12 @@
         font-size: 2.25em;
     }
 }
+
+@media (min-width: 1401px) and (max-width:1545px) {
+    .trabajos-header{
+        width: 100%;
+        margin-left: -0.01rem;
+        margin-right: -4rem;
+        padding-top: 3rem;
+    }
+}
