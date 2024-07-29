@@ -59,6 +59,7 @@
     flex-wrap: wrap;
     gap: 0.5rem;
 }
+
 @media (max-width: 576px) {
     .header-custom {
         font-size: 0.65rem;

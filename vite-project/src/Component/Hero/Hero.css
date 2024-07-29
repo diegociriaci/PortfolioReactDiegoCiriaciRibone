@@ -54,7 +54,7 @@
 
 .mi-presentacion{
     flex: 1;
-    margin-top: 5rem;
+    margin-top: -5rem;
     /* margin-left: -10px; */
     padding: 0;
     width: 100%;
@@ -93,7 +93,7 @@
 .foto-perfil-flexbox{
     margin-top: 3.125rem;
     margin-bottom: 1.875rem;
-    padding-left: 7.625rem;
+    padding-left: 14.625rem;
     /* margin-left: 240px; */
 }
 
@@ -138,9 +138,10 @@
     /* position: relative; */
     bottom: 11.25rem;
     /* padding: 0.625rem 0.625rem; */
-    margin-top: 1.10rem;
-    margin-left: 7.5rem;
+    margin-top: -9.10rem;
+    margin-left: -7.5rem;
     margin-right: 7.5rem;
+
 }
 
 .imagen-clutch img{
@@ -337,11 +338,6 @@
         width: 1.125rem;
     }
 
-    .mi-presentacion{
-        padding: 0 2rem;
-        width: 100%;
-    }
-
     .mi-presentacion p{
         font-size: 1.2rem;
     }
@@ -352,20 +348,36 @@
 
     .contenedor-presentacion{
         height: auto;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        width: 95%;       
+        margin-left: 0.5rem;
+        width: 95%;  
+    }
+
+    .mi-presentacion{
+        width: 100%;
+        margin-top: 0;
+        /* margin-left: -10px; */
+        padding: 0;
+        width: 100%;
     }
 
     .foto-perfil{
-        width: 100%;
-        max-width: 23rem;
-        max-height: 23rem;
+        /* width: 100%; */
+        max-width: 18rem;
+        height: auto;
         border-radius: 50%;
     }
 
+    .contenedor-info{
+        /* padding-right: 3.125rem; */
+        /* margin-right: 5.625rem; */
+        width: 100%;
+        margin-top: 0.625rem;
+        margin-bottom: 0;
+        border: 1px solid blue;
+    }
+
     .info-numero{
-        font-size: 3.1rem;
+        font-size: 2.9rem;
     }
 
     .info-texto{
@@ -373,7 +385,15 @@
     }
 
     .contenedor-puntuacion {
-        max-width: 100%;
+        /* max-width: 100%; */
+        width: 18.75rem;
+        /* height: 11.25rem; */
+        /* position: relative; */
+        bottom: 11.25rem;
+        /* padding: 0.625rem 0.625rem; */
+        margin-top: -4.10rem;
+        margin-left: 1rem;
+        margin-right: 7.5rem;
     }
 }
 
