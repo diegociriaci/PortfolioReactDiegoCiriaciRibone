@@ -134,7 +134,8 @@
 
     .novedades-header{
         width: 100%;
-        margin-left: -1rem;
+        margin-left: 0.6rem;
+
         margin-right: -4rem;
         padding-top: 3rem;
     }

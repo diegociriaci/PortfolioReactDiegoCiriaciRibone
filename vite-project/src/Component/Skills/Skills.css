@@ -310,7 +310,7 @@
 
     .skills-header{
         width: 40%;
-        margin-left: -2rem;
+        margin-left: 0.5rem;
         margin-right: -2rem;
     }
 
@@ -378,7 +378,7 @@
 
     .skills-header{
         width: 40%;
-        margin-left: -4rem;
+        margin-left: -3rem;
         margin-right: -4rem;
         padding: 3.125rem 0.625rem;
     }

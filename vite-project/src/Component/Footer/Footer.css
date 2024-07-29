@@ -188,12 +188,13 @@ footer{
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .footer-header{
-        margin-left: 0;
+        margin-left: 0rem;
         margin-right: 0;
     }
 
     .titulo-footer{
         font-size: 2rem;
+        width: 50%;
     }
 
     .pie-pagina{
@@ -216,7 +217,7 @@ footer{
 
 @media (min-width: 1025px) and (max-width: 1400px) {
     .footer-header{
-        margin-left: -1rem;
+        margin-left: 1rem;
         margin-right: -4rem;
     }
 
@@ -225,7 +226,7 @@ footer{
     }
 
     .pie-pagina{
-        margin-left: -1.25rem;
+        margin-left: 1rem;
         justify-content: space-between;
     }
 
@@ -234,7 +235,7 @@ footer{
     }
 
     .hr-final{
-        margin-left: -8.125rem;
+        margin-left: 1rem;
     }
 }
 

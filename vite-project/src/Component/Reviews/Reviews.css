@@ -95,7 +95,7 @@
 
     .reviews-header h1{
         font-size: 1.5em;
-        margin-left: 0;
+        margin-left: 1.1rem;
     }
 
     .carousel{
@@ -167,7 +167,7 @@
 
     .reviews-header h1{
         font-size: 1.875em;
-        margin-left: 0.01rem;
+        margin-left: 1.7rem;
     }
 
     .contenedor-opiniones{
@@ -194,7 +194,6 @@
 
     .reviews-header{
         width: 100%;
-        margin-left: -1rem;
         margin-right: -4rem;
         padding-top: 3rem;
     }
