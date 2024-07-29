@@ -7,7 +7,7 @@ const Hero = ({ onShowModal }) => {
             <div className="container-fluid">
                 <div className="row text-center">
                     <div className="col-12">
-                        <h2 className="nombre-apellido">Diego Ciriaci Ribone</h2>
+                        <h2 className="nombre-apellido">Diego Ciriaci Ribonee</h2>
                         <h2 className="desarrollador-nombre">Desarrollador & Diseñador</h2>
                         <div className="redes">
                             <a href="https://www.instagram.com/diegoocrr/" className="nav-link-hero">INSTAGRAM</a>
