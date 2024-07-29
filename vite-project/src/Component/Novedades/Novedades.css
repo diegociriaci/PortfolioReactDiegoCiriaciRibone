@@ -151,3 +151,11 @@
         height: 18rem;
     }
 }
+
+@media (min-width: 1401px) and (max-width:1545px) {
+    .novedades-header{
+        width: 100%;
+        margin-left: 0.1rem;
+        margin-right: -4rem;
+    }
+}
