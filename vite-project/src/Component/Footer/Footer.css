@@ -237,3 +237,19 @@ footer{
         margin-left: -8.125rem;
     }
 }
+
+@media (min-width: 1401px) and (max-width:1545px) {
+    .footer-header{
+        margin-left: 0.5rem;
+        margin-right: -3rem;
+    }
+
+    .pie-pagina{
+        margin-left: 0.5rem;
+        justify-content: space-between;
+    }
+
+    .hr-final{
+        margin-left: -0.125rem;
+    }
+}

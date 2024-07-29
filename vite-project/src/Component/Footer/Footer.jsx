@@ -4,7 +4,7 @@ const Footer = ({ onShowModal }) => {
     return(
 	    <footer className="py-5 d-flex flex-direction-column">
             <div className="container">
-                <div className="row mb-4 contenedor-footer-arriba">
+                <div className="row mb-4">
                     <div className="col-md-8 footer-header">
                         <h1 className="mb-4 titulo-footer">Escribinos, <br />Vamos a trabajar.</h1>
                         <hr className="bg-white hr-tamanio" />
