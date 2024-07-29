@@ -19,14 +19,14 @@ const Hero = ({ onShowModal }) => {
                         </div>
                     </div>
                 </div>
-                <div className="d-flex flex-md-row justify-content-center align-items-center contenedor-presentacion">
+                <div className="d-flex justify-content-between align-items-center contenedor-presentacion">
                     <div className="col-md-4 mi-presentacion d-flex flex-column align-items-start">
                         <p>Me llamo Diego, soy estudiante de Ingeniería en Sistemas de Información, me considero una persona proactiva, responsable, persistente, disciplinada, organizada y curiosa, bastante exigente con todas las cosas que hago, con ganas de aprender y mejorar constantemente.</p>
                         <button className="btn d-block boton-contratame" onClick={onShowModal}>
                             Contrátame! <img className="imagen-flecha-boton" src="img/img-flecha-diagonal.svg" alt="Flecha" />
                         </button>
                     </div>
-                    <div className="col-md-4 d-flex justify-content-center align-items-center foto-perfil-flexbox">
+                    <div className="col-md-5 foto-perfil-flexbox">
                         <img className="foto-perfil" src="img/foto-perfil.png" alt="Foto de perfil" />
                     </div>
                     <div className="col-md-4 d-flex flex-column align-items-center contenedor-info">

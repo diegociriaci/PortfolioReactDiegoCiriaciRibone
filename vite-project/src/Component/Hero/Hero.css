@@ -48,19 +48,23 @@
     padding: 3.125rem 0.625rem;
     margin-left: -7.5rem;
     margin-right: 7.5rem;
-    /* width: 100%; */
     width: 88.125rem;
 }
 
 .mi-presentacion{
-    flex: 1;
-    margin-top: -5rem;
+    /* flex: 1; */
+    margin-top: -7.5rem;
     /* margin-left: -10px; */
     padding: 0;
-    width: 100%;
+    width: 30%;   
+    margin-bottom: 1.25rem;
+    /* margin-top: 1.875rem; */
+    /* margin-left: -7.5rem; */
+    height: auto;
 }
 
 .mi-presentacion p{
+    /* width: 100%; */
     max-width: 21.875rem;
     color: #87878c;
     font-family: sans-serif;
@@ -92,24 +96,25 @@
 
 .foto-perfil-flexbox{
     margin-top: 3.125rem;
-    margin-bottom: 1.875rem;
-    padding-left: 14.625rem;
-    /* margin-left: 240px; */
+    /* margin-bottom: 1.875rem; */
+    /* padding-left: 14.625rem; */
+    margin-left: 3.125rem;
 }
 
 .foto-perfil{
+
     outline: 0.125rem solid #fc540d;
     outline-offset: 0.4375rem;
     border-radius: 50%;
-    width: 37.5rem;
-    height: 37.5rem;
-    /* width: 100%;
-    height: auto; */
+    /* width: 37.5rem; */
+    /* height: 37.5rem; */
+    width: 100%;
+    height: auto;
 }
 
 .contenedor-info{
     flex: 1;
-    margin-top: 4.95rem;
+    /* margin-top: 0; */
     /* width: 0; */
     margin-left: 6.25rem;
 }
@@ -133,15 +138,16 @@
 }
 
 .contenedor-puntuacion{
-    width: 18.75rem;
+    width: 20%;
+    /* width: 18.75rem; */
     /* height: 11.25rem; */
-    /* position: relative; */
+    position: relative;
     bottom: 11.25rem;
+    left: 0.625rem;
     /* padding: 0.625rem 0.625rem; */
-    margin-top: -9.10rem;
+    /* margin-top: -5.10rem; */
     margin-left: -7.5rem;
-    margin-right: 7.5rem;
-
+    /* margin-right: 7.5rem; */
 }
 
 .imagen-clutch img{
@@ -188,6 +194,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 0;
+        width: 100%;
     }
 
     .mi-presentacion{
@@ -211,22 +219,12 @@
         width: 85%;       
     }
 
-    .foto-perfil-flexbox{
-        margin-top: -37.125rem;
-        margin-bottom: 0;
-        padding-left: 0;
-    }
-
-    .foto-perfil{
-         visibility: hidden;
+    .foto-perfil-flexbox, .foto-perfil, .contenedor-puntuacion{
+        display: none;
     }
 
     .contenedor-info{
-        padding-right: 3.125rem;
-        margin-right: 5.625rem;
-        width: 100%;
-        margin-top: 0.625rem;
-        margin-bottom: 0;
+        margin-left: 0;
     }
 
     .info-numero{
@@ -235,11 +233,6 @@
 
     .info-texto{
         font-size: 0.65rem;
-    }
-
-    .contenedor-puntuacion{
-        visibility: hidden;
-        margin-top: -11.10rem;
     }
 }
 
@@ -288,22 +281,16 @@
         width: 85%;       
     }
 
-    .foto-perfil-flexbox{
-        /* margin-top: 3.125rem; */
-        margin-top: -39.125rem;
-        margin-bottom: 0;
-        padding-left: 0;
-    }
-
-    .foto-perfil{
-        visibility: hidden;
+    .foto-perfil-flexbox, .foto-perfil, .contenedor-puntuacion{
+        display: none;
     }
 
     .contenedor-info{
-        padding-right: 3.125rem;
-        margin-right: 5.625rem;
+        /* padding-right: 3.125rem; */
+        /* margin-right: 5.625rem; */
         width: 100%;
-        margin-top: 2.925rem;
+        /* margin-top: 2.925rem; */
+        margin-left: 0;
     }
 
     .info-numero{
@@ -312,11 +299,6 @@
 
     .info-texto{
         font-size: 0.65rem;
-    }
-
-    .contenedor-puntuacion{
-        visibility: hidden;
-        margin-top: -11.10rem;  
     }
 }
 
@@ -349,15 +331,19 @@
     .contenedor-presentacion{
         height: auto;
         margin-left: 0.5rem;
-        width: 95%;  
+        width: 100%;
     }
 
     .mi-presentacion{
-        width: 100%;
+        width: 40%;
         margin-top: 0;
-        /* margin-left: -10px; */
         padding: 0;
-        width: 100%;
+    }
+
+    .foto-perfil-flexbox{
+        width: 20%;
+        margin-left: 0;
+        margin-top: -70px;
     }
 
     .foto-perfil{
@@ -365,15 +351,6 @@
         max-width: 18rem;
         height: auto;
         border-radius: 50%;
-    }
-
-    .contenedor-info{
-        /* padding-right: 3.125rem; */
-        /* margin-right: 5.625rem; */
-        width: 100%;
-        margin-top: 0.625rem;
-        margin-bottom: 0;
-        border: 1px solid blue;
     }
 
     .info-numero{
@@ -388,11 +365,11 @@
         /* max-width: 100%; */
         width: 18.75rem;
         /* height: 11.25rem; */
-        /* position: relative; */
-        bottom: 11.25rem;
+        position: relative;
+        bottom: 1.25rem;
         /* padding: 0.625rem 0.625rem; */
-        margin-top: -4.10rem;
-        margin-left: 1rem;
+        /* margin-top: 7.10rem; */
+        margin-left: 0;
         margin-right: 7.5rem;
     }
 }
@@ -415,8 +392,9 @@
         width: 1.125rem;
     }
 
-    .mi-presentacion{
-        padding: 0 3rem;
+    .contenedor-presentacion{
+        height: auto;
+        margin-left: 0.5rem;
         width: 100%;
     }
 
@@ -428,23 +406,21 @@
         padding: 0.625rem 1.25rem;
     }
 
-    .contenedor-presentacion{
-        height: auto;
-        margin-left: 0;
-        margin-right: 2.5rem;
-    }
-
     .foto-perfil-flexbox{
         margin-top: 3.125rem;
         margin-bottom: 1.875rem;
         padding-left: 0;
+        width: 40%;
+        margin-left: 0;
+        /* margin-top: -70px; */
     }
 
     .mi-presentacion{
         flex: 1;
         margin-top: 5rem;
         padding: 0;
-        width: 100%;   
+        width: 100%;
+        margin-bottom: 7.5rem 
     }
 
     .foto-perfil{
@@ -452,6 +428,7 @@
         max-width: 23rem;
         max-height: 23rem;
         border-radius: 50%;
+        margin-left: 6.875rem;
     }
 
     .info-numero{
@@ -464,7 +441,32 @@
 
     .contenedor-puntuacion{
         max-width: 18.75rem;
-        border: 1px solid red;
+        position: relative;
         margin-left: 0;
+        margin-top: 4.10rem;
+    }
+}
+
+@media (min-width: 1401px) and (max-width:1545px) {
+    .contenedor-presentacion{
+        height: auto;
+        margin-left: 0.5rem;
+        width: 100%;
+    }
+
+    .foto-perfil-flexbox{
+        margin-top: 3.125rem;
+        margin-bottom: 1.875rem;
+        padding-left: 0;
+        width: 40%;
+        margin-left: 0;
+        /* margin-top: -70px; */
+    }
+
+    .contenedor-puntuacion{
+        max-width: 18.75rem;
+        position: relative;
+        margin-left: 0;
+        margin-top: 4.10rem;
     }
 }
