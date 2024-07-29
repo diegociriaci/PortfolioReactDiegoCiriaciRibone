@@ -4,10 +4,10 @@ import './Hero.css'
 const Hero = ({ onShowModal }) => {
     return (
         <section id="acerca-de-mi" className="hero">
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row text-center">
                     <div className="col-12">
-                        <h2 className="nombre-apellido">Diego Ciriaci Ribonee</h2>
+                        <h2 className="nombre-apellido">Diego Ciriaci Ribone</h2>
                         <h2 className="desarrollador-nombre">Desarrollador & Diseñador</h2>
                         <div className="redes">
                             <a href="https://www.instagram.com/diegoocrr/" className="nav-link-hero">INSTAGRAM</a>
@@ -19,7 +19,7 @@ const Hero = ({ onShowModal }) => {
                         </div>
                     </div>
                 </div>
-                <div className="d-flex flex-column flex-md-row justify-content-center align-items-center contenedor-presentacion">
+                <div className="d-flex flex-md-row justify-content-center align-items-center contenedor-presentacion">
                     <div className="col-md-4 mi-presentacion d-flex flex-column align-items-start">
                         <p>Me llamo Diego, soy estudiante de Ingeniería en Sistemas de Información, me considero una persona proactiva, responsable, persistente, disciplinada, organizada y curiosa, bastante exigente con todas las cosas que hago, con ganas de aprender y mejorar constantemente.</p>
                         <button className="btn d-block boton-contratame" onClick={onShowModal}>

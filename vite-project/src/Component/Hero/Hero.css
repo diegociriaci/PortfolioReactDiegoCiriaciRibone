@@ -45,17 +45,19 @@
 
 .contenedor-presentacion{
     height: auto;
-    /* padding: 3.125rem 0.625rem; */
-    margin-left: 7.5rem;
+    padding: 3.125rem 0.625rem;
+    margin-left: -7.5rem;
     margin-right: 7.5rem;
-    width: 85%;
+    /* width: 100%; */
+    width: 88.125rem;
 }
 
 .mi-presentacion{
     flex: 1;
     margin-top: 5rem;
+    /* margin-left: -10px; */
     padding: 0;
-    width: 50%;
+    width: 100%;
 }
 
 .mi-presentacion p{
@@ -63,6 +65,7 @@
     color: #87878c;
     font-family: sans-serif;
     font-size: 1.125rem;
+
 }
 
 .boton-contratame{
@@ -90,6 +93,8 @@
 .foto-perfil-flexbox{
     margin-top: 3.125rem;
     margin-bottom: 1.875rem;
+    padding-left: 7.625rem;
+    /* margin-left: 240px; */
 }
 
 .foto-perfil{
@@ -98,12 +103,15 @@
     border-radius: 50%;
     width: 37.5rem;
     height: 37.5rem;
+    /* width: 100%;
+    height: auto; */
 }
 
 .contenedor-info{
     flex: 1;
     margin-top: 4.95rem;
     /* width: 0; */
+    margin-left: 6.25rem;
 }
 
 .info-item{
@@ -157,7 +165,7 @@
     font-size: 0.9375rem;
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
     .nombre-apellido, .desarrollador-nombre{
         font-size: 1.5rem;
     }
@@ -175,9 +183,16 @@
         width: 1rem;
     }
 
+    .contenedor-presentacion{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .mi-presentacion{
         padding: 0 1rem;
         width: 100%;
+        margin-top: -0.625rem;
     }
 
     .mi-presentacion p{
@@ -195,15 +210,22 @@
         width: 85%;       
     }
 
+    .foto-perfil-flexbox{
+        margin-top: -37.125rem;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
     .foto-perfil{
-        width: 100%;
-        max-width: 15rem;
-        max-height: 15rem;
-        border-radius: 50%;
+         visibility: hidden;
     }
 
     .contenedor-info{
         padding-right: 3.125rem;
+        margin-right: 5.625rem;
+        width: 100%;
+        margin-top: 0.625rem;
+        margin-bottom: 0;
     }
 
     .info-numero{
@@ -215,7 +237,8 @@
     }
 
     .contenedor-puntuacion{
-        visibility: hidden;   
+        visibility: hidden;
+        margin-top: -11.10rem;
     }
 }
 
@@ -237,9 +260,16 @@
         width: 1.125rem;
     }
 
+    .contenedor-presentacion{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .mi-presentacion{
-        padding: 0 1.5rem;
+        padding: 0 2.3rem;
         width: 100%;
+        margin-top: -0.625rem;
     }
 
     .mi-presentacion p{
@@ -257,27 +287,35 @@
         width: 85%;       
     }
 
+    .foto-perfil-flexbox{
+        /* margin-top: 3.125rem; */
+        margin-top: -39.125rem;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
     .foto-perfil{
-        width: 100%;
-        max-width: 18rem;
-        max-height: 18rem;
-        border-radius: 50%;
+        visibility: hidden;
     }
 
     .contenedor-info{
         padding-right: 3.125rem;
+        margin-right: 5.625rem;
+        width: 100%;
+        margin-top: 2.925rem;
     }
 
     .info-numero{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .info-texto{
-        font-size: 0.7rem;
+        font-size: 0.65rem;
     }
 
     .contenedor-puntuacion{
-        visibility: hidden;   
+        visibility: hidden;
+        margin-top: -11.10rem;  
     }
 }
 
@@ -339,7 +377,7 @@
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width:1400px) {
     .nombre-apellido, .desarrollador-nombre{
         font-size: 2.5rem;
     }
@@ -372,9 +410,21 @@
 
     .contenedor-presentacion{
         height: auto;
-        margin-left: 2.5rem;
+        margin-left: 0;
         margin-right: 2.5rem;
-        width: 85%;       
+    }
+
+    .foto-perfil-flexbox{
+        margin-top: 3.125rem;
+        margin-bottom: 1.875rem;
+        padding-left: 0;
+    }
+
+    .mi-presentacion{
+        flex: 1;
+        margin-top: 5rem;
+        padding: 0;
+        width: 100%;   
     }
 
     .foto-perfil{
@@ -394,5 +444,7 @@
 
     .contenedor-puntuacion{
         max-width: 18.75rem;
+        border: 1px solid red;
+        margin-left: 0;
     }
 }
