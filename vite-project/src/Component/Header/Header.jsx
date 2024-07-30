@@ -31,7 +31,6 @@ const Header = ({ onShowModal }) => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav d-flex justify-content-center flex-grow-1">
-                            {/* <a className="nav-link" href="#">HOME</a> */}
                             <a className="nav-link" href="#" onClick={() => scroll.scrollToTop()}>HOME</a>
                             <Link className="nav-link" to="acerca-de-mi" smooth={true} duration={50} offset={-47}>ACERCA DE MI</Link>
                             <Link className="nav-link" to="servicios" smooth={true} duration={50} offset={-47}>SERVICIOS</Link>
@@ -49,3 +48,5 @@ const Header = ({ onShowModal }) => {
 }
 
 export default Header
+
+
