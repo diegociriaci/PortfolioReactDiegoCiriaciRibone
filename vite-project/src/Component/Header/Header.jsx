@@ -86,14 +86,14 @@ const Header = ({ onShowModal }) => {
                     </button>
                     <div className={`collapse navbar-collapse${navbarToggler ? ' show' : ''}`} id="navbarNavAltMarkup">
                         <div className="navbar-nav d-flex justify-content-center flex-grow-1">
-                            <a className="nav-link" href="#" onClick={() => handleNavLinkClick()}>HOME</a>
+                            <Link className="nav-link" to="acerca-de-mi" smooth={false} duration={0} offset={-47} onClick={() => handleNavLinkClick('acerca-de-mi')}>HOME</Link>
                             <Link className="nav-link" to="acerca-de-mi" smooth={false} duration={0} offset={-47} onClick={() => handleNavLinkClick('acerca-de-mi')}>ACERCA DE MI</Link>
                             <Link className="nav-link" to="servicios" smooth={false} duration={0} offset={-47} onClick={() => handleNavLinkClick('servicios')}>SERVICIOS</Link>
                             <Link className="nav-link" to="skills" smooth={false} duration={0} offset={-47} onClick={() => handleNavLinkClick('skills')}>HABILIDADES Y EXPERIENCIA</Link>
                             <Link className="nav-link" to="trabajos" smooth={false} duration={0} offset={-47} onClick={() => handleNavLinkClick('trabajos')}>ULTIMOS TRABAJOS</Link>
                             <Link className="nav-link" to="reviews" smooth={false} duration={0} offset={-47} onClick={() => handleNavLinkClick('reviews')}>OPINIONES DE CLIENTES</Link>
                             <Link className="nav-link" to="novedades" smooth={false} duration={0} offset={-47} onClick={() => handleNavLinkClick('novedades')}>NOVEDADES</Link>
-                            <a className="nav-link hablemos" href="#" onClick={() => { onShowModal(); handleCloseForm(); }}>Hablemos!</a>
+                            <Link className="nav-link hablemos" to="contacto" smooth={false} duration={0} offset={-47} onClick={() => {onShowModal();handleCloseForm();}}>Hablemos!</Link>
                         </div>
                     </div>
                 </nav>
