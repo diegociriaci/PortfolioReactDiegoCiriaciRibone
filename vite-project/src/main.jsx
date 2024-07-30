@@ -12,7 +12,6 @@ import Reviews from './Component/Reviews/Reviews.jsx'
 import Novedades from './Component/Novedades/Novedades.jsx'
 import Footer from './Component/Footer/Footer.jsx'
 import MyModal from './Component/MyModal/MyModal.jsx'
-import NotificacionFormulario from './Component/NotificacionFormulario/NotificacionFormulario.jsx'
 
 const App = () => {
   const [showModal, setShowModal] = useState(false)
@@ -30,7 +29,6 @@ const App = () => {
       <Novedades/>
       <Footer onShowModal={handleShowModal}/>
       <MyModal show={showModal} handleClose={handleCloseModal}/>
-      <NotificacionFormulario/>
     </>
   )
 }
