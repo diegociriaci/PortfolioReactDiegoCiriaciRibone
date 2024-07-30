@@ -14,7 +14,7 @@
     transition: background-color 0.3s ease;
     padding: 0.5rem 1rem; /* Padding reducido cuando se hace scroll */
     font-size: 0.65rem; /* Tamaño de fuente reducido cuando se hace scroll */
-    height: auto; /* Altura reducida cuando se hace scroll (ajusta según sea necesario) */
+    height: 3rem; /* Altura reducida cuando se hace scroll (ajusta según sea necesario) */
 }   
 
 .header-custom .header-solid{
